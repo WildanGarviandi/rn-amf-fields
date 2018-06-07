@@ -35,8 +35,8 @@ class AmfCheckBox extends Component {
         <CheckboxGroup
           callback={onChange}
           iconSize={30}
-          checkedIcon="md-checkbox"
-          uncheckedIcon="md-checkbox-outline"
+          checkedIcon="checkbox-marked"
+          uncheckedIcon="checkbox-blank"
           checkboxes={
             options.map( (option, i) => (
               {
